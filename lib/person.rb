@@ -6,9 +6,9 @@ class Person
     @name
   end
   def job=(persons_job)
-    @the_persons_job = persons_job
+    @job = persons_job
   end
   def name
-    @the_persons_job
+    @job
   end
 end
